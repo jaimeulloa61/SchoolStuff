@@ -36,7 +36,7 @@ public class Solution {
             .collect(toList());
 
         List<Integer> b = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-            .map(Integer::parseInt)
+            .map(Integer::parseInt) 
             .collect(toList());
 
         List<Integer> result = compareTriplets(a, b);
