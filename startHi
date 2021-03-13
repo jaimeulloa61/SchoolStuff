@@ -1,0 +1,11 @@
+public boolean startHi(String str) {
+  int cnt = 2;
+  String temp = "";
+  if(cnt > str.length()){
+    return false;
+  }
+  temp = str.substring(0,2);
+  String temp2 = "hi";
+  return temp.equals(temp2);
+  
+}
