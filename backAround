@@ -1,0 +1,4 @@
+public String backAround(String str) {
+  String temp = str.substring(str.length()-1);
+  return temp+str+temp;
+}
